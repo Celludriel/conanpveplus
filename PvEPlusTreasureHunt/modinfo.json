@@ -1,16 +1,16 @@
 {
 	"name": "PvE Plus Treasure Hunt",
 	"description": "[Lore]\nFor as long as can be remembered people have stored their price processions in secure chests.  The people in the exiled lands are none different.  Unfortunately the monstrous wildlife in these lands are drawn to them.  Much to the owners despair.  Scouts over time have found these treasure troves and scribbled their location down on brittle maps.  Eventually even these got lost , destroyed or divided.  However for those that find these scraps of paper, and know how to restore them, danger and riches await.  \n\n[Description]\nKilling thralls sometimes yield scraps of map pieces.  Bring five of them together in the artisan bench after learning the free recipe and you will yield a usable treasure location.\nYou'll have to craft your own private treasure map, where treasure locations, once used will appear on.  Some of them are located in dangerous places and will need a decent preparation.  All of them are guarded by boss monsters that will not yield easy.\nAfter killing the boss, a bag will drop next to it containing a key, usable only on that particular treasure chest.  It may take up to two seconds for the bag with the key to spawn!  The chest will remain for two minutes after killing the guardian.  So loot fast.\n\n[Developer notes]\n\n- I had to create my own implementation of the map, this was a really tough thing to do.  I made it as good as I can get it, I hope there won't be to many bugs\n- If you build a foundation within 50m of a spot where a treasure can spawn, the treasure will never spawn again there.  This to prevent abuse.\n- I have tested this mod trying to catch each situtation but if you do encounter something weird please let me know.  This mod might have a few more bugs then my ambush one.  It was a lot harder to put together.\n\n[Thank you note]\n\nI like to thank Scooper, RobTheSwede, Kharzette, Dragoonduneman, Foxcat, shadowCMD, Testerle and many others of the Conan Modding Discord channel for all their help and insights",
-	"changeNote": "- Changed the condition of is Server to is Dedicated Server.  I believe they made changes to it and even a solo session is know seen as a server.  I hope this fixes it",
+	"changeNote": "- Seems a Mesh moved location and it broke the mod, I remapped the mesh and hopefully this fixed it",
 	"author": "Celludriel",
 	"authorUrl": "",
 	"versionMajor": 1,
 	"versionMinor": 3,
-	"versionBuild": 4,
+	"versionBuild": 5,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "1393568478",
 	"steamVisibility": 0,
 	"folderName": "PvEPlusTreasureHunt",
-	"revisionNumber": 130640,
-	"snapshotId": 20988
+	"revisionNumber": 196231,
+	"snapshotId": 23625
 }
